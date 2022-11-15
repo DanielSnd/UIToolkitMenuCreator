@@ -3,7 +3,7 @@ UI Toolkit Menu Creator is a class and UXML/Stylesheet you can extend from to ea
 
 # Dependencies
 UI Toolkit Menu Creator uses DOTween for fading menus:
-## DOTween (License here)[http://dotween.demigiant.com/license.php]
+### DOTween [License here](http://dotween.demigiant.com/license.php)
 
 # Demo
 ![Demo](https://github.com/DanielSnd/UIToolkitMenuCreator/blob/main/ReadmeImages/MenuDemo.gif?raw=true)
