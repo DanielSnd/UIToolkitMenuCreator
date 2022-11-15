@@ -1,5 +1,5 @@
 # UIToolkitMenuCreator
-UI Toolkit Menu Creator is a class and UXML/Stylesheet you can extend from to easily create Unity Menus from C# code without having to edit UXML.
+UI Toolkit Menu Creator is a class and UXML/Stylesheet you can extend from to easily create Runtime Unity Game Menus from C# code without having to edit UXML.
 
 # Dependencies
 UI Toolkit Menu Creator uses DOTween for fading menus:
