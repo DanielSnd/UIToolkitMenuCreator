@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MenuCreator/MenuCreatorStylesheet.uss?fileID=7433441132597879392&amp;guid=fc4614bea4bc39447b664aa2b65b8641&amp;type=3#MenuCreatorStylesheet" />
+    <ui:VisualElement name="MenuRoot" style="flex-grow: 1; align-items: center; justify-content: center; display: none;">
+        <ui:VisualElement name="MenuPanel" class="MenuPanel" />
+        <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="MenuTitle" class="MenuTitle" />
+        <ui:VisualElement name="LoadingIcon" style="background-image: url(&apos;project://database/Assets/MenuCreator/loading.png?fileID=21300000&amp;guid=db524745f7e2b734b91c1281f6407ca7&amp;type=3#loading&apos;); width: 64px; height: 64px; rotate: 0; position: absolute; display: none;" />
+        <ui:VisualElement name="LoadingProgressBG" class="progressBar--background" style="display: none;">
+            <ui:VisualElement name="LoadingProgressBar" class="progressBar--overlay" />
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" display-tooltip-when-elided="true" name="LoadingLabel" text="Test" class="LoadingLabel" style="display: none;" />
+    </ui:VisualElement>
+</ui:UXML>

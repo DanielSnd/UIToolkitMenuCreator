@@ -1,0 +1,1198 @@
+.unity-ui-document__root {
+    flex-grow: 1;
+}
+
+.unity-button:focus {
+    color: rgb(45, 45, 45);
+}
+
+.unity-button {
+    -unity-text-align: middle-center;
+    --unity-selection-color: rgb(145, 154, 154);
+    border-width: 0;
+}
+
+.NavBarButtonsHolder {
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin-left: 19px;
+    margin-right: 5px;
+    flex-direction: row;
+}
+
+.FloatingMenu {
+    border-radius: 8px;
+    border-width: 0;
+    flex-basis: auto;
+    position: absolute;
+    flex-grow: 1;
+    background-color: rgb(34, 47, 62);
+    min-width: 200px;
+    max-width: 500px;
+    min-height: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.MenuHolder:disabled {
+    opacity: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.MenuHolder:enabled {
+    opacity: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.MenuHolder {
+    border-radius: 8px;
+    border-width: 0;
+    max-height: 300px;
+}
+
+.NavBarButton:hover {
+    background-color: rgb(99, 111, 140);
+}
+
+.NavBarButton {
+    flex-shrink: 1;
+    flex-grow: 1;
+    border-width: 0;
+    color: rgb(213, 213, 213);
+    border-radius: 7;
+    background-color: rgb(95, 124, 255);
+    font-size: 12px;
+    min-height: 25px;
+    max-height: 25px;
+    border-bottom-color: rgb(82, 107, 133);
+    border-right-color: rgb(82, 107, 133);
+    border-left-color: rgb(82, 107, 133);
+    border-bottom-width: 3px;
+    -unity-font-definition: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.NavBarButtonUnselected:hover {
+    background-color: rgb(99, 111, 140);
+    color: rgb(204, 211, 232);
+}
+
+.NavBarButtonUnselected {
+    flex-shrink: 1;
+    flex-grow: 1;
+    border-width: 0;
+    color: rgb(97, 104, 122);
+    border-radius: 7;
+    background-color: rgb(51, 58, 75);
+    font-size: 12px;
+    min-height: 25px;
+    max-height: 25px;
+    -unity-font-definition: none;
+}
+
+.unity-base-slider__tracker {
+    border-width: 0;
+    background-color: rgb(43, 58, 75);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.unity-base-slider__dragger:hover {
+    background-color: rgb(157, 169, 195);
+}
+
+.unity-base-slider__dragger {
+    background-color: rgb(85, 97, 123);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-width: 0;
+}
+
+.unity-base-slider__label {
+    font-size: 10px;
+    -unity-font-definition: none;
+    color: rgb(163, 170, 198);
+}
+
+.unity-scroller__high-button {
+    border-width: 0;
+    display: none;
+}
+
+.unity-scroller__low-button {
+    border-width: 0;
+    display: none;
+}
+
+.unity-base-slider__dragger {
+    border-width: 0;
+    background-color: rgb(146, 160, 193);
+}
+
+.unity-base-slider {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.unity-vector3-field__input {
+    flex-direction: row;
+    font-size: 10px;
+}
+
+.unity-composite-field__field {
+    width: 100px;
+}
+
+.unity-float-field__label {
+    width: 14px;
+}
+
+.unity-toggle {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.unity-toggle__input {
+    min-width: 25px;
+    max-width: 25px;
+}
+
+.unity-toggle__checkmark {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-width: 0;
+    background-color: rgb(43, 58, 75);
+    -unity-background-image-tint-color: rgb(207, 216, 220);
+}
+
+.unity-toggle__label {
+    font-size: 10px;
+    -unity-font-definition: none;
+    align-self: center;
+    justify-content: center;
+    color: rgb(127, 149, 183);
+    flex-grow: 1;
+    min-width: auto;
+    margin-left: 10px;
+}
+
+.unity-float-field__label {
+    min-width: auto;
+    font-size: 10px;
+    -unity-font-definition: none;
+    color: rgb(127, 149, 183);
+    flex-grow: 1;
+    align-self: center;
+    justify-content: center;
+}
+
+.unity-vector3-field__label {
+    font-size: 10px;
+    -unity-font-definition: none;
+    color: rgb(163, 170, 198);
+    flex-grow: 1;
+    min-width: auto;
+    max-width: 50px;
+    align-self: center;
+    justify-content: center;
+}
+
+.unity-min-max-slider__label {
+    color: rgb(163, 170, 198);
+    font-size: 10px;
+    -unity-font-definition: none;
+    min-width: auto;
+    align-self: center;
+    justify-content: center;
+}
+
+.unity-min-max-slider__tracker {
+    border-width: 0;
+    border-radius: 5px;
+    background-color: rgb(43, 58, 75);
+}
+
+.unity-min-max-slider__min-thumb {
+    border-width: 0;
+    border-radius: 5px;
+    background-color: rgb(146, 160, 193);
+}
+
+.unity-min-max-slider__max-thumb {
+    border-width: 0;
+    border-radius: 5px;
+    background-color: rgb(146, 160, 193);
+}
+
+.unity-min-max-slider__dragger {
+    background-color: rgb(134, 147, 179);
+    border-width: 0;
+}
+
+.unity-float-field__input {
+    background-color: rgb(43, 58, 75);
+    border-width: 0;
+    border-radius: 5px;
+    color: rgb(67, 83, 108);
+    -unity-font-definition: none;
+}
+
+.unity-foldout__input {
+    max-width: auto;
+}
+
+.unity-foldout__text {
+    color: rgb(120, 124, 144);
+    font-size: 16px;
+    -unity-font-definition: none;
+    min-width: auto;
+    align-self: left;
+}
+
+.ObjectPainterBlueprintIcon {
+    font-size: 8px;
+    color: rgb(163, 170, 198);
+    padding-bottom: 2px;
+    align-content: flex-end;
+    -unity-text-align: lower-center;
+    background-color: rgb(111, 111, 140);
+    border-bottom-color: rgb(70, 79, 145);
+    border-left-color: rgb(70, 79, 145);
+    border-right-color: rgb(70, 79, 145);
+    border-top-color: rgb(70, 79, 145);
+    min-width: 54px;
+    max-width: 54px;
+    min-height: 54px;
+    max-height: 54px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    border-left-width: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-radius: 10px;
+    border-bottom-width: 2px;
+    -unity-font-definition: none;
+}
+
+.BlueprintSelectorWindow {
+    -unity-text-align: middle-center;
+    background-color: rgb(34, 47, 62);
+    width: 75%;
+    height: 75%;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    align-items: auto;
+    justify-content: center;
+    left: 12.5%;
+    top: 11%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.BlueprintSelectionButton {
+    width: 80px;
+    height: 80px;
+}
+
+.BlueprintSelectionCloseButton {
+    color: rgb(163, 170, 198);
+    font-size: 14px;
+    border-width: 0;
+    border-radius: 16px;
+    -unity-font-definition: none;
+    min-width: auto;
+    position: absolute;
+    align-self: flex-end;
+    background-color: rgb(65, 88, 113);
+    top: -10px;
+    right: 8px;
+}
+
+.BlueprintSelectionRowButton:hover {
+    background-color: rgb(74, 85, 108);
+}
+
+.BlueprintSelectionRowButton {
+    color: rgb(163, 170, 198);
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
+    border-width-top: 0;
+    border-width-left: 0;
+    border-width-right: 0;
+    background-color: rgb(56, 64, 84);
+    font-size: 12px;
+    align-content: flex-end;
+    -unity-text-align: lower-center;
+    border-top-color: rgb(82, 107, 133);
+    border-bottom-color: rgb(82, 107, 133);
+    border-right-color: rgb(82, 107, 133);
+    border-left-color: rgb(82, 107, 133);
+    border-bottom-width: 3px;
+    -unity-font-definition: none;
+}
+
+.unity-list-view__item {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.unity-list-view__item:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.unity-scroll-view__content-container--vertical {
+    height: auto;
+}
+
+.unity-list-view__item {
+    height: auto;
+}
+
+.MenuButtonGray:hover {
+    font-size: 16.5px;
+    border-left-color: rgb(127, 140, 152);
+    border-right-color: rgb(127, 140, 152);
+    border-top-color: rgb(127, 140, 152);
+    border-bottom-color: rgb(127, 140, 152);
+    background-color: rgb(170, 182, 192);
+    color: rgb(75, 84, 91);
+}
+
+.MenuButtonGray:focus {
+    font-size: 16.5px;
+}
+
+.MenuButtonGray {
+    flex-shrink: 1;
+    flex-grow: 1;
+    border-width: 0;
+    border-radius: 7;
+    border-bottom-width: 3px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 60%;
+    width: 50%;
+    background-color: rgb(224, 231, 238);
+    border-left-color: rgb(169, 183, 196);
+    border-right-color: rgb(169, 183, 196);
+    border-top-color: rgb(169, 183, 196);
+    border-bottom-color: rgb(169, 183, 196);
+    color: rgb(108, 129, 144);
+    -unity-font-style: bold;
+    font-size: 16px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-height: 42px;
+    min-height: 42px;
+}
+
+.MenuButton:hover {
+    border-left-color: rgb(46, 130, 190);
+    border-right-color: rgb(46, 130, 190);
+    border-top-color: rgb(46, 130, 190);
+    border-bottom-color: rgb(46, 130, 190);
+    color: rgb(0, 146, 217);
+    font-size: 16.5px;
+    background-color: rgb(97, 203, 255);
+}
+
+.MenuButton:focus {
+    border-left-color: rgb(100, 191, 255);
+    border-right-color: rgb(100, 191, 255);
+    border-top-color: rgb(100, 191, 255);
+    border-bottom-color: rgb(100, 191, 255);
+    color: rgb(0, 146, 217);
+    font-size: 16.5px;
+}
+
+.MenuButton {
+    flex-shrink: 1;
+    flex-grow: 1;
+    border-width: 0;
+    border-radius: 7;
+    border-bottom-width: 3px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 60%;
+    width: 50%;
+    background-color: rgb(43, 91, 164);
+    border-left-color: rgb(0, 63, 106);
+    border-right-color: rgb(0, 63, 106);
+    border-top-color: rgb(0, 63, 106);
+    border-bottom-color: rgb(0, 63, 106);
+    color: rgb(93, 186, 255);
+    -unity-font-style: bold;
+    font-size: 16px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-height: 42px;
+    min-height: 42px;
+}
+
+.unity-text-field__input {
+    margin-left: 2px;
+    -unity-font-definition: none;
+    -unity-text-align: middle-left;
+    background-color: rgb(226, 226, 238);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    margin-right: 0;
+    color: rgb(67, 83, 108);
+    width: 300px;
+    min-width: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.unity-text-field__label {
+    -unity-text-align: middle-left;
+    color: rgb(127, 149, 183);
+    -unity-font-style: bold;
+    min-width: 150px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 1px;
+    padding-right: 2px;
+    font-size: 14px;
+    flex: 0 0 auto;
+    margin: 4px 4px 2px 2px;
+    white-space: nowrap;
+    -unity-font-style: bold;
+}
+
+.unity-base-text-field__input {
+    --unity-sync-text-editor-engine: true;
+    border-radius: 10px;
+    border-width: 0;
+    font-size: 14px;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    background-color: rgb(111, 110, 116);
+    color: rgb(170, 196, 236);
+    margin-bottom: 0;
+    margin-left: 2px;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 5px;
+    -unity-overflow-clip-box: content-box;
+    -unity-text-align: middle-left;
+    white-space: nowrap;
+    width: 300px;
+    height: 35px;
+}
+
+.unity-button {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    flex: 0 0 auto;
+    -unity-text-align: middle-center;
+}
+
+.MenuPanel {
+    flex-grow: 1;
+    width: 60%;
+    height: auto;
+    padding-top: 45px;
+    background-color: rgb(49, 46, 63);
+    max-height: 70%;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(75, 83, 101);
+    border-top-color: rgb(75, 83, 101);
+    border-right-color: rgb(75, 83, 101);
+    border-left-color: rgb(75, 83, 101);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.BubbleTop {
+    position: absolute;
+    top: 10%;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    max-width: 200px;
+    width: 200px;
+    height: 6%;
+    max-height: 6%;
+    background-color: rgb(255, 255, 255);
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.IconBubble {
+    position: absolute;
+    top: auto;
+    background-image: none;
+    width: 48px;
+    height: 48px;
+    margin-top: -25px;
+}
+
+.MenuTitle {
+    flex-grow: 1;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    -unity-font-definition: none;
+    position: absolute;
+    top: 18.5%;
+    color: rgb(176, 201, 241);
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+    font-size: 32px;
+}
+
+.Spacer {
+    height: 10px;
+}
+
+.InteractMessage {
+    width: auto;
+    flex-grow: 1;
+    -unity-text-align: middle-left;
+    -unity-font-style: bold;
+    color: rgb(38, 38, 38);
+    margin-left: 10px;
+    flex-wrap: wrap;
+    max-width: 250px;
+    white-space: normal;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+.InteractKey {
+    width: 36px;
+    height: 36px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.InteractWindow {
+    position: absolute;
+    -unity-font-definition: none;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    width: auto;
+    transform-origin: left;
+    flex-wrap: nowrap;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-left-color: rgb(210, 218, 241);
+    border-right-color: rgb(210, 218, 241);
+    border-top-color: rgb(210, 218, 241);
+    border-bottom-color: rgb(210, 218, 241);
+    border-bottom-width: 3px;
+    align-items: center;
+    max-width: 320px;
+}
+
+.AlertManagerRoot {
+    flex-grow: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    min-height: 100%;
+}
+
+.PopupIconAmount {
+    -unity-font-style: bold;
+    -unity-font-definition: none;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.PopupIconImage {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background-image: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.ColorButtonsHolder {
+    width: 90%;
+    align-items: center;
+    align-self: center;
+    flex-basis: auto;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-height: 14%;
+    min-height: 14%;
+}
+
+.TwoButtonHolder {
+    width: 90%;
+    align-items: stretch;
+    align-self: center;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-grow: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-height: 14%;
+    min-height: 14%;
+}
+
+.TwoColorHolder {
+    width: 90%;
+    align-items: stretch;
+    align-self: center;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-grow: 1;
+    margin-left: -20%;
+    margin-right: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-height: 10%;
+    min-height: 10%;
+}
+
+.ButtonYellow:hover {
+    background-color: rgb(255, 229, 107);
+    color: rgb(212, 164, 37);
+    border-left-color: rgb(231, 192, 77);
+    border-right-color: rgb(231, 192, 77);
+    border-top-color: rgb(231, 192, 77);
+    border-bottom-color: rgb(231, 192, 77);
+}
+
+.ButtonYellow {
+    background-color: rgb(255, 214, 22);
+    color: rgb(166, 111, 23);
+    border-left-color: rgb(229, 172, 50);
+    border-right-color: rgb(229, 172, 50);
+    border-top-color: rgb(229, 172, 50);
+    border-bottom-color: rgb(229, 172, 50);
+    -unity-slice-top: 0;
+}
+
+.ButtonRed:hover {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-left-color: rgb(219, 80, 80);
+    border-right-color: rgb(219, 80, 80);
+    border-top-color: rgb(219, 80, 80);
+    border-bottom-color: rgb(219, 80, 80);
+    color: rgb(255, 201, 202);
+    background-color: rgb(197, 83, 83);
+}
+
+.ButtonRed:focus {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-left-color: rgb(219, 80, 80);
+    border-right-color: rgb(219, 80, 80);
+    border-top-color: rgb(219, 80, 80);
+    border-bottom-color: rgb(219, 80, 80);
+    color: rgb(255, 201, 202);
+    background-color: rgb(207, 87, 87);
+}
+
+.ButtonRed {
+    background-color: rgb(128, 12, 10);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    color: rgb(231, 138, 136);
+    border-left-color: rgb(202, 77, 75);
+    border-right-color: rgb(202, 77, 75);
+    border-top-color: rgb(202, 77, 75);
+    border-bottom-color: rgb(202, 77, 75);
+    -unity-slice-top: 0;
+    -unity-text-outline-color: rgb(94, 2, 0);
+}
+
+.ButtonOrange:hover {
+    background-color: rgb(255, 212, 100);
+    color: rgb(188, 133, 47);
+    border-left-color: rgb(204, 144, 57);
+    border-right-color: rgb(204, 144, 57);
+    border-top-color: rgb(204, 144, 57);
+    border-bottom-color: rgb(204, 144, 57);
+}
+
+.ButtonOrange {
+    background-color: rgb(245, 152, 43);
+    color: rgb(171, 109, 39);
+    border-left-color: rgb(164, 82, 2);
+    border-right-color: rgb(164, 82, 2);
+    border-top-color: rgb(164, 82, 2);
+    border-bottom-color: rgb(164, 82, 2);
+    -unity-slice-top: 0;
+    -unity-text-outline-color: rgb(166, 63, 7);
+}
+
+.ButtonNavyBlue {
+    background-color: rgb(255, 214, 22);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    color: rgb(45, 56, 94);
+    border-left-color: rgb(69, 80, 123);
+    border-right-color: rgb(69, 80, 123);
+    border-top-color: rgb(69, 80, 123);
+    border-bottom-color: rgb(69, 80, 123);
+    -unity-slice-top: 0;
+}
+
+.ButtonLightGreen:hover {
+    -unity-background-image-tint-color: rgb(221, 248, 226);
+    border-left-color: rgb(28, 204, 157);
+    border-right-color: rgb(28, 204, 157);
+    border-top-color: rgb(28, 204, 157);
+    border-bottom-color: rgb(28, 204, 157);
+}
+
+.ButtonLightGreen:focus {
+    -unity-background-image-tint-color: rgb(221, 248, 226);
+    border-left-color: rgb(28, 204, 157);
+    border-right-color: rgb(28, 204, 157);
+    border-top-color: rgb(28, 204, 157);
+    border-bottom-color: rgb(28, 204, 157);
+}
+
+.ButtonLightGreen {
+    background-color: rgb(255, 214, 22);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    color: rgb(24, 156, 97);
+    border-left-color: rgb(29, 214, 131);
+    border-right-color: rgb(29, 214, 131);
+    border-top-color: rgb(29, 214, 131);
+    border-bottom-color: rgb(29, 214, 131);
+    -unity-slice-top: 0;
+}
+
+.ButtonGreen:hover {
+    -unity-background-image-tint-color: rgb(219, 255, 224);
+}
+
+.ButtonGreen:focus {
+    -unity-background-image-tint-color: rgb(219, 255, 224);
+}
+
+.ButtonGreen {
+    background-color: rgb(13, 96, 82);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    color: rgb(67, 195, 173);
+    border-left-color: rgb(54, 176, 155);
+    border-right-color: rgb(54, 176, 155);
+    border-top-color: rgb(54, 176, 155);
+    border-bottom-color: rgb(54, 176, 155);
+    -unity-slice-top: 0;
+}
+
+.ButtonBlueAlt:hover {
+    -unity-background-image-tint-color: rgb(219, 254, 255);
+}
+
+.ButtonBlueAlt {
+    background-color: rgb(10, 74, 130);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    color: rgb(87, 169, 241);
+    border-left-color: rgb(13, 110, 192);
+    border-right-color: rgb(13, 110, 192);
+    border-top-color: rgb(13, 110, 192);
+    border-bottom-color: rgb(13, 110, 192);
+    -unity-slice-top: 0;
+}
+
+.LoadingLabel {
+    -unity-font: resource('FlatSkin/Font/Roboto-Medium');
+    position: absolute;
+    -unity-font-definition: none;
+    color: rgb(127, 149, 183);
+    bottom: 20%;
+    width: 50%;
+    height: 10%;
+    -unity-text-align: middle-center;
+    font-size: 14px;
+}
+
+.DebugMenu {
+    flex-grow: 1;
+    align-items: flex-start;
+    width: 38%;
+    background-color: rgb(247, 245, 253);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 92%;
+    position: absolute;
+    border-left-color: rgb(180, 193, 221);
+    border-right-color: rgb(180, 193, 221);
+    border-top-color: rgb(180, 193, 221);
+    border-bottom-color: rgb(180, 193, 221);
+    border-left-width: 0;
+    border-right-width: 2px;
+    border-top-width: 0;
+    border-bottom-width: 5px;
+}
+
+.ExtraText {
+    flex-grow: 1;
+    height: 6%;
+    max-height: 6%;
+    min-height: 6%;
+    width: 100%;
+    -unity-font-definition: none;
+    -unity-text-align: middle-center;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: rgb(150, 169, 198);
+    -unity-font-style: bold;
+    -unity-font: resource('FlatSkin/Font/Roboto-Medium');
+}
+
+.DebugTitle {
+    flex-grow: 1;
+    height: 6%;
+    max-height: 6%;
+    min-height: 6%;
+    width: 100%;
+    -unity-font-definition: none;
+    -unity-text-align: middle-left;
+    margin-left: 4%;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: rgb(67, 83, 108);
+    -unity-font-style: bold;
+}
+
+.DebugScrollView {
+    flex-grow: 1;
+    width: 100%;
+    height: 90%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.DamageNumberHolder {
+    position: absolute;
+    width: 100px;
+    height: 64px;
+}
+
+.DamageNumber {
+    -unity-font-style: bold;
+    -unity-font-definition: none;
+    align-content: center;
+    align-self: center;
+    -unity-text-align: middle-center;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.progressBar--background {
+    flex-grow: 0;
+    border-left-color: rgb(128, 155, 192);
+    border-right-color: rgb(128, 155, 192);
+    border-top-color: rgb(218, 228, 255);
+    border-bottom-color: rgb(82, 104, 138);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 2px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    position: absolute;
+    top: auto;
+    bottom: 30%;
+    min-width: 30%;
+    min-height: 2.5%;
+    border-bottom-left-radius: 10px;
+    max-height: 2.5%;
+}
+
+.progressBar--overlay {
+    background-color: rgb(19, 157, 243);
+    width: 0;
+    height: 105%;
+    min-height: 105%;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left-color: rgb(19, 156, 242);
+    border-right-color: rgb(243, 19, 77);
+    border-top-color: rgb(243, 19, 77);
+    border-bottom-color: rgb(243, 19, 77);
+    flex-grow: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-height: 105%;
+}
+
+.MenuScrollview {
+    max-width: 90%;
+    min-width: 90%;
+    margin-top: 40px;
+    flex-grow: 1;
+}
+
+.TwoButtonHolderScrollview {
+    max-height: 38px;
+    min-height: 38px;
+    justify-content: center;
+    align-items: stretch;
+    align-self: center;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-grow: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ControllerButtonAndLabelHolder {
+    justify-content: center;
+    align-items: stretch;
+    align-self: center;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-grow: 1;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.MenuSlider .unity-label {
+    color: rgb(67, 83, 108);
+    font-size: 12px;
+    -unity-font-style: bold;
+}
+
+.ButtonRemapControl {
+    max-width: 45%;
+    min-width: 45%;
+    width: 45%;
+    border-width: 0;
+    border-radius: 7;
+    border-bottom-width: 3px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    border-left-color: rgb(169, 183, 196);
+    border-right-color: rgb(169, 183, 196);
+    border-top-color: rgb(169, 183, 196);
+    border-bottom-color: rgb(169, 183, 196);
+    color: rgb(108, 129, 144);
+    -unity-font-style: bold;
+    font-size: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-height: 30px;
+    min-height: 30px;
+}
+
+.ButtonRemapLabel {
+    -unity-font-definition: none;
+    -unity-text-align: middle-center;
+    font-size: 12px;
+    width: 45%;
+    color: rgb(67, 83, 108);
+    -unity-font-style: bold;
+}
+
+.ColorSelectionButton {
+    border-radius: 8px;
+    border-color: aliceblue;
+    border-width: 0;
+    height: 35px;
+}
+
+.ColorSelectionButton:hover {
+    height: 40px;
+}
+
+.ColorSelectionButtonSelected {
+    border-radius: 8px;
+    border-color: aliceblue;
+    border-width: 3px;
+    height: 45px;
+}
+
+.unity-base-field {
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-left: 4px;
+    margin-right: 4px;
+    white-space: nowrap;
+    --unity-selection-color: rgb(99, 219, 232);
+}
+
+#unity-text-input {
+    --unity-cursor-color: rgb(255, 255, 255);
+}
+
+.unity-base-field {
+    -unity-font: resource('FlatSkin/Font/Roboto-Medium');
+}
+
+.unity-text-field {
+    -unity-font: resource('FlatSkin/Font/Roboto-Medium');
+}
+
+.unity-label {
+    -unity-font: resource('FlatSkin/Font/Roboto-Medium');
+}
+
+.unity-text-element {
+    -unity-font: resource('FlatSkin/Font/Roboto-Medium');
+}
+
+.unity-base-field__input {
+    flex: 1 0 0;
+    overflow: hidden;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.unity-base-slider__input {
+    flex: 1 0 auto;
+    flex-wrap: nowrap;
+    overflow: visible;
+}
+
+.unity-base-slider--horizontal .unity-base-slider__input {
+    flex-direction: row;
+    height: 100%;
+}
+
+.unity-base-slider__drag-container {
+    flex-grow: 1;
+}
+
+.unity-base-slider--horizontal .unity-base-slider__tracker {
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin: 0;
+    background-color: rgb(101, 111, 118);
+    margin-top: -3px;
+    height: 6px;
+    position: absolute;
+}
+
+.unity-base-slider .unity-base-slider__dragger-border {
+    display: none;
+}
+
+.unity-base-slider--horizontal .unity-base-slider__dragger {
+    border-radius: 15px;
+    top: 60%;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    margin-top: -11px;
+    background-color: rgb(102, 201, 255);
+}
+
+.unity-base-slider .unity-base-slider__dragger {
+    position: absolute;
+    border-width: 1px;
+}
+
+.unity-base-slider--horizontal {
+    width: 85%;
+}
+
+.unity-base-slider__label {
+    font-size: 16px;
+}
+
+#unity-drag-container {
+    margin-left: 50px;
+}
